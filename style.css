@@ -1,0 +1,177 @@
+body{
+  background: linear-gradient(to left, #559650, #075304);
+}
+
+menu{
+  margin-top: 200px;
+  margin-left: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+}
+
+nav ul li{
+  padding: 0 30px;
+  font-size: 20px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: black;
+}
+
+.texto{
+  margin-left: 100px;
+  margin-top: 200px;
+
+}
+
+.texto1{
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 30px;
+
+}
+
+.sinopse{
+  margin-left: 100px;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+.botao{
+    height: 50px;
+    width: 200px;
+    margin-top: 100px;
+    margin-left: 250px;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+.botao:hover{
+    color: black;
+    transform: scale(1.2)
+}
+
+.imagem-livro{
+  margin-left: 1200px;
+  margin-top: -400px;
+} 
+
+.imagem-livro :hover{
+  box-shadow: 0 0 2em #24f116;
+  transform: scale(1.1);
+}
+
+header {
+  color: #fff;
+  text-align: center;
+  padding: 0px 0;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 40px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.book-luz {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 50px 0;
+  margin-top: 90px;
+
+}
+
+.book-titulo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0b2c08;
+}
+
+.book-autor {
+  font-style: italic;
+  color: #888;
+  margin-top: 10px;
+}
+
+.book-texto {
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.botao-destaque {
+  display: block;
+  background-color: #28911e;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.menu-destaque{
+  margin-top: -90px;
+  margin-left: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.image-container {
+  padding: 90px;
+  position: relative;
+  display: inline-block;
+  width: 230px; 
+  height: auto;
+  
+}
+
+.moto {
+  display: none;
+  position: absolute;
+  top: 450px;
+  left: 130px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  width: 235px;
+  transition: opacity 0.3s;
+  font-size: 15px;
+  height: auto;
+}
+
+.carro {
+  width: 100%;
+  margin-left: 50px;
+}
+
+.carro:hover + .moto {
+  display: block;
+}
+
+
