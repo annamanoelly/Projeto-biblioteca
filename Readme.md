@@ -1,4 +1,4 @@
-## Biblioteca da Meia Noite - Projeto de Blog##
+## Biblioteca da Meia Noite - Projeto de Blog ##
 
 Este projeto é uma página web simples que apresenta o livro "A Biblioteca da Meia Noite". O site é dividido em seções que mostram um pouco sobre a história do livro e tem links para páginas de destaque e indicações. A interface foi construída utilizando HTML e CSS, com um design focado em cores escuras e textos claros para realçar o conteúdo. A página não está responsiva.
 
